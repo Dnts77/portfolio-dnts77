@@ -1,0 +1,10 @@
+*{
+    font-family:Poppins, Lora, Nunito Sans
+}
+
+:root{
+    --cor-principal: #150a1d; /* Preto, cor principal que será usada na maior parte do projeto */
+    --cor-secundária: #04107c; /* Azul escuro como cor secundária que dá contraste com o a cor principal */
+    --cor-terciaria: #4a22a1; /* Tonalidade roxa para partes específicas */
+    --cor-details: #0b9ca5; /* Tom de ciano, talvez nem seja usado */
+}
