@@ -4,6 +4,7 @@
     --cor-secundária: #04107c; /* Azul escuro como cor secundária que dá contraste com o a cor principal */
     --cor-terciaria: #4a22a1; /* Tonalidade roxa para partes específicas */
     --cor-details: #0b9ca5; /* Tom de ciano, talvez nem seja usado */
+    --animation-base-time: 2s;
 }
 *{
     font-family:Poppins, Lora, Nunito Sans;
@@ -21,6 +22,7 @@
     background-color: white;
     width:100vw;
     height:8vh;
+    animation: teste calc(var(--animation-base-time)*2);
 }
 .navbar-list{
     display:flex;
@@ -40,4 +42,12 @@
     background-color: white;
     display:flex;
     align-items:center;
+}
+@keyframes teste{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity: 100%;
+    }
 }
