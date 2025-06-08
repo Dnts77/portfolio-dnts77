@@ -5,6 +5,7 @@
     --cor-terciaria: #4a22a1; /* Tonalidade roxa para partes específicas */
     --cor-details: #0b9ca5; /* Tom de ciano, talvez nem seja usado */
     --animation-base-time: 2s;
+    --font-headers: 1.2em;
 }
 *{
     font-family:Poppins, Lora, Nunito Sans;
@@ -37,6 +38,24 @@
     align-items:center;
     background-color:white;
     color:black;
+    position:relative;
+    z-index:0;
+    cursor:pointer;
+    font-size: var(--font-headers);
+}
+.navbar-list li::after{
+    content: "";
+    height: 4px;
+    width: 0;    
+    position:absolute;
+    background: linear-gradient(to right, var(--cor-details), var(--cor-terciaria));
+    bottom: 0;
+    left:0;
+    z-index:-1;
+    transition: 130ms ease-in-out;
+}
+.navbar-list li:hover::after{
+    width:100%;
 }
 .navbar{
     background-color: white;
