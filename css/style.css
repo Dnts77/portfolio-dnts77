@@ -26,7 +26,7 @@ body{
   justify-content: center;
   width: 100vw;
   height: 8vh;
-  animation: teste calc(var(--animation-base-time) * 2);
+  animation: showUp calc(var(--animation-base-time) * 2);
 }
 
 .navbar {
@@ -69,7 +69,7 @@ body{
   color: #eab5b0; /* Cor de uso único para efeito de hover */
 }
 /* ANIMAÇÕES */
-@keyframes teste {
+@keyframes showUp {
   from {
     opacity: 0;
   }
