@@ -39,7 +39,6 @@ body{
   list-style-type: none;
   gap: 4rem;
   padding: 0;
-  justify-content: space-around;
 }
 
 .navbar-list li a {
