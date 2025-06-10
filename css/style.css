@@ -1,9 +1,9 @@
 /*Váriaveis e body */
 :root {
-  --cor-principal: #150a1d; /* Preto, cor principal que será usada na maior parte do projeto */
+  --cor-principal: #000000; /* Preto, cor principal que será usada na maior parte do projeto */
   --cor-secundária: #04107c; /* Azul escuro como cor secundária que dá contraste com o a cor principal */
   --cor-terciaria: #4a22a1; /* Tonalidade roxa para partes específicas */
-  --cor-details: #0b9ca5; /* Tom de ciano, talvez nem seja usado */
+  --cor-details: #15b0bb; /* Tom de ciano, talvez nem seja usado */
   --animation-base-time: 2s; /*Tempo base de animações */
   --font-headers: 1.2em; /* Tamanho base da fonte de cabeçalhos */
   --font-clr: #f3f7f6; /* Cor base para fontes */
@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 body{
-   background: linear-gradient(to bottom, var(--cor-principal), var(--cor-terciaria), var(--cor-secundária));
+   background: linear-gradient(to bottom, var(--cor-principal), var(--cor-secundária));
    background-repeat: no-repeat;
    background-attachment: fixed;
 }
