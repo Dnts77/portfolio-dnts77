@@ -1,7 +1,7 @@
 /*Váriaveis e body */
 :root {
   --cor-principal: #000000; /* Preto, cor principal que será usada na maior parte do projeto */
-  --cor-secundária: #04107c; /* Azul escuro como cor secundária que dá contraste com o a cor principal */
+  --cor-secundária: #030e70; /* Azul escuro como cor secundária que dá contraste com o a cor principal */
   --cor-terciaria: #4a22a1; /* Tonalidade roxa para partes específicas */
   --cor-details: #15b0bb; /* Tom de ciano, talvez nem seja usado */
   --animation-base-time: 2s; /*Tempo base de animações */
