@@ -61,7 +61,7 @@ body{
   height: 2px;
   width: 0;
   position: absolute;
-  background:var(--font-clr);
+  background:var(--cor-details);
   bottom: 0;
   left: 0;
   z-index: -1;
