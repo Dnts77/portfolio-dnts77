@@ -72,6 +72,47 @@ body{
   width: 100%;
   color: var(--cor-details);
 }
+/* CONTEÚDO */
+#main-holder{
+  display:flex;
+  position:relative;
+  animation: Slide calc(var(--animation-base-time)*3);
+  width:50vw;
+  height: 3vh;
+}
+.main-content-holder{
+  display:flex;
+  position:relative;
+  width:50vw;
+  height: 3vh;
+}
+.main-content{
+  display:flex;
+  position:relative;
+  width: 50vw;
+  height: 3vh;
+  padding-left: 6%;
+  top: 90px;
+  align-items: center;
+}
+#h1-name{
+  font-weight: bold;
+  background: linear-gradient(90deg, #00f0ff, #00ffb3, #00f0ff); /* Cores fora das variáveis usadas para o efeito do texto */
+  background-size: 200%;
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+
+
+
+
+
+
+
+
 /* ANIMAÇÕES */
 @keyframes showUp {
   from {
@@ -80,5 +121,22 @@ body{
   }
   to {
     opacity: 100%;
+  }
+}
+@keyframes Slide{
+  from{
+    opacity: 0;
+    transform: translateX(-800px);
+  }
+  to{
+    opacity: 100%;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: -100%;
+  }
+  100% {
+    background-position: 100%;
   }
 }
