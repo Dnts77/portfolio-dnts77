@@ -105,12 +105,26 @@ body{
   animation: shine 3s linear infinite;
 }
 
+/*Minha foto*/
+#aside-content {
+  display: flex;
+  justify-content: right; 
+}
 
+#img-holder {
+  display: flex;
+  justify-content: flex-end; 
+}
 
-
-
-
-
+#mypic{
+  width: 450px; 
+  height: auto; 
+  display: flex;
+  padding: 5px;
+  border-radius: 35%;
+  margin-right: 150px;
+  box-shadow: 10px 10px 15px var(--cor-principal), -10px -10px 15px var(--cor-secundária); /*O nível se prova baixo quando você fica um tempo sem mexer e esquece ao ponto de sofrer pra fazer uma sombra simples.*/
+}
 
 
 /* ANIMAÇÕES */
