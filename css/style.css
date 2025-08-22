@@ -18,6 +18,8 @@ body{
    background: linear-gradient(to bottom, var(--cor-principal), var(--cor-secundária));
    background-repeat: no-repeat;
    background-attachment: fixed;
+   scrollbar-color:var(--cor-principal);
+   scrollbar-width: none;
 }
 /* NAVBAR E ETC */
 
@@ -124,6 +126,7 @@ body{
   border-radius: 35%;
   margin-right: 150px;
   box-shadow: 10px 10px 15px var(--cor-principal), -10px -10px 15px var(--cor-secundária); /*O nível se prova baixo quando você fica um tempo sem mexer e esquece ao ponto de sofrer pra fazer uma sombra simples.*/
+  animation: img 5s ease-out;  
 }
 
 
@@ -153,4 +156,20 @@ body{
   100% {
     background-position: 100%;
   }
+}
+@keyframes img{
+  0%{
+    opacity:0;
+    transform: translateX(150px);
+  }
+  75%{
+    opacity: 50%;
+    transform:scale(0.5);
+  }
+  100%{
+    transform:scale(1);
+    opacity: 1;
+  }
+
+
 }
